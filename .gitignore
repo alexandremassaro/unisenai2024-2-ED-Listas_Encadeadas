@@ -1,0 +1,35 @@
+# Pasta compilada
+bin/
+
+# Arquivos específicos do Eclipse
+.settings/
+.classpath
+.project
+
+# Arquivos temporários do Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Logs
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs e editores
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+*.iws
+.vscode/
