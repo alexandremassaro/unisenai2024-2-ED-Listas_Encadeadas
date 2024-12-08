@@ -15,6 +15,7 @@ public class Main {
 			System.out.println("1) Inserir");
 			System.out.println("2) Remover");
 			System.out.println("3) Buscar");
+			System.out.println("4) Alterar");
 			// TODO método de editar um número da lista
 			
 			il.imprimir();
@@ -31,6 +32,9 @@ public class Main {
 				case 3:
 					il.buscar();
 					break;
+        case 4:
+          il.alterar();
+          break;
 			}
 			
 			

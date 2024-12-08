@@ -80,5 +80,21 @@ public class Lista {
 		}
 		System.out.println();
 	}
+
+  public boolean alterar(int x, int n) {
+    No atual = inicio;
+    No ant = null;
+    if (vazia()) return false;
+    while (atual!=null && atual.dado!=x) {
+      ant = atual;
+      atual = atual.prox;
+    }
+    // Elemento não encontrado
+    if (atual==null) return false;
+    
+    atual.dado = n;
+
+    return true;
+  }
 	
 }

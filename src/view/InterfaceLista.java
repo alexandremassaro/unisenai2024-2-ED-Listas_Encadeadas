@@ -49,5 +49,21 @@ public class InterfaceLista {
 			System.out.println("Ocorreu um erro ao remover o item!");
 		}
 	}
+  public void alterar() {
+    int x;
+    int n;
+    System.out.print(" > Valor a alterar: ");
+    x = scan.nextInt();
+    System.out.print(" > Novo valor: ");
+    n = scan.nextInt();
+
+    boolean sucesso = lista.alterar(x, n);
+    if (sucesso) {
+      System.out.println("Item alterado com sucesso!");
+    }
+    else {
+      System.out.println("Ocorreu um erro ao alterar o item!");
+    }
+  }
 	
 }
